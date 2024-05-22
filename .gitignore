@@ -1,30 +1,31 @@
-# Byte-compiled / optimized / DLL files
+# Ignore PyCharm project files
+.idea/
+
+# Ignore Python bytecode
 __pycache__/
 *.pyc
 *.pyo
-*.pyll
-*.so
+*.pyd
 
-# C extensions
-*.c
-*.cpp
-*.dylib
-# Distribution / packaging
-dist/
-build/
-
-# Environments
-.env
-.venv
+# Ignore virtual environment
 venv/
-env/
-ENV/
+.venv/
 
-#private doc
+# Ignore OS generated files
+*.DS_Store
+Thumbs.db
+
+# Ignore data files (optional, depending on size and sensitivity)
+data/*
+
+# Ignore logs
+*.log
+
+# Ignore private documentation
 private_doc/
 
-# Jupyter Notebook
-.ipynb_checkpoints
+# Ignore temporary files
+*.tmp
 
 private_doc/*
 .DS_Store
