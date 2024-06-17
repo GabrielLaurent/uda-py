@@ -1,8 +1,1 @@
-tensorflow
-torch
-transformers
-umpy
-pillow
-scikit-image
-nltk
-requests
+googletrans==4.0.0rc1
