@@ -1,7 +1,8 @@
+tensorflow
 torch
 transformers
+umpy
 pillow
-numpy
-pandas
-scikit-learn
-tqdm
+scikit-image
+nltk
+requests
