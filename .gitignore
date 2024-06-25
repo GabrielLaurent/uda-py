@@ -1,0 +1,30 @@
+# Byte-compiled / optimized / DLL files
+__pycache__/
+*.pyc
+*.pyo
+*.pyll
+*.so
+
+# C extensions
+*.c
+*.cpp
+*.dylib
+# Distribution / packaging
+dist/
+build/
+
+# Environments
+.env
+.venv
+venv/
+env/
+ENV/
+
+#private doc
+private_doc/
+
+# Jupyter Notebook
+.ipynb_checkpoints
+
+private_doc/*
+.DS_Store
